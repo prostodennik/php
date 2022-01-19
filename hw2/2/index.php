@@ -1,7 +1,7 @@
 <?php
 include "../functions/functions.php";
 
-//task1([1,2,3,4,5,6], false);
+task1([1,2,3,4,5,6], false);
 //echo task3(2, 2);
 
 date_default_timezone_set('Europe/Moscow');

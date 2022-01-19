@@ -6,11 +6,11 @@ function task1(array $strings, bool $return = true)
         return "<ul><li>$str</li></ul>";
     }, $strings));
 
+    echo $result;
+
     if ($return) {
         return $result;
     }
-
-    echo $result;
 }
 
 function task2(string $actions, ...$args)
